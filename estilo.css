@@ -1,0 +1,413 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+}
+
+#carga{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#principal{
+	display: none;
+}
+.cabeza{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 130px;
+	z-index: 62;
+}
+
+.cabeza video {
+	display: block;
+	margin: 0px;
+}
+
+.menu{
+	background-color: white;
+	opacity: 0.9;
+	margin: 0 auto;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 100;
+}
+
+.encabezado #logo{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 62;
+	margin-block-end: 0;
+	margin-block-stard: 0;
+	bottom: 0;
+}
+.encabezado #logo img{
+	height: 95%
+}
+
+.encabezado #navegacion ul{
+	list-style: none;
+	text-align: right;
+	padding-bottom: 25px;
+	padding-left: 150px;
+	padding-right: 40px;
+	margin: 0
+}
+
+.encabezado #navegacion ul li{
+	display: inline-block;
+	width: 150px;
+	padding-top: 40px;
+	position: relative;
+}
+
+.encabezado #navegacion ul li a{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	display: block;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+
+.encabezado #navegacion ul li a:hover{
+	color: #bce784;
+	text-shadow: 2px 2px 2px 2px;
+}
+.nosotros #titulo{
+	height: 0px;
+}
+.nosotros #toska{
+	position: relative;
+	text-align: center;
+	opacity: 0.19;
+	height: 0px;
+	margin-top: 40px;
+	
+}
+
+
+.nosotros #text{
+	position: relative;
+	font-size: 35px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	margin: 0px;
+	margin-top: 155px;
+}
+.nosotros figure{
+	margin: 0px;
+}
+.nosotros #forma {
+	text-align: right;
+	position: relative;
+	height: 0px;
+	margin-top: -560px;
+	
+}
+.trabajos #ilustracion{
+	height: 0px;
+	
+}
+.trabajos #ilustracion{
+	position: relative;
+	margin-top: 650px;
+}
+.trabajos #il{
+	height: 0px;
+	
+}
+.trabajos #il{
+	position: relative;
+	text-align: center;
+	
+}
+.trabajos #tex{
+	background-color: #873277;
+	width: 425px;
+	height: 503px;
+	margin: 0;
+}
+.trabajos #tex{
+	font-size: 35px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-align: center;
+	float: right;
+	display: block;
+	
+}
+
+.trabajos #tex h2{
+	margin-top: 200px;
+}
+.trabajos #lineas{
+	position: relative;
+	float: right;
+	margin-top: 140px;
+	left: 391px;
+
+	
+}
+.identidad #cor{
+	background-color: white;
+	width: 425px;
+	height: 503px;
+	margin: 0;
+	margin-top: 500px;
+}
+.identidad #cor{
+	font-size: 35px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:black;
+	text-align: center;
+	float: left;
+	display: block;
+	
+}
+.identidad #cor h2{
+	margin-top: 200px;
+}
+.identidad #li{
+	position: relative;
+	float:left;
+	margin-top: 250px;
+	right: 391px;
+	
+}
+.identidad #maru{
+	height: 0px;
+	
+}
+.identidad #maru{
+	position: relative;
+	text-align: center;
+	right: 400px;
+}
+.identidad #maru img{
+	padding-top: 80px;
+}
+.identidad #log{
+	position: relative;
+	float: right;
+	display: block;
+	text-align: right;
+	margin-left: 100px;
+}
+.identidad #log img{
+	margin-top: 75px;
+}
+.flyers #man{
+	height: 0px;
+	
+}
+.flyers #man{
+	position: relative;
+	top: 80px;
+	left: -422px;
+	margin-top: 850px;
+	
+}
+.flyers #busines{
+	height: 0px;
+	
+}
+.flyers #busines{
+	position: relative;
+	text-align: center;
+	left: -214px;
+}
+.flyers #busines img{
+	margin-top: 80px;
+}
+.flyers #papeles{
+	background-color: #bcd685;
+	width: 425px;
+	height: 503px;
+	margin: 0;
+	
+}
+.flyers #papeles{
+	font-size: 35px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-align: center;
+	float: right;
+	display: block;
+	margin-top: 80px;
+}
+.flyers #papeles h2{
+	margin-top: 200px;
+}
+.flyers #li2{
+	position: relative;
+	float: right;
+	margin-top: 180px;
+	left: 391px;
+
+}
+.flyers #li2 img{
+	margin-top: 30px
+}
+
+.packaging #pack{
+	background-color: white;
+	width: 425px;
+	height: 503px;
+	margin: 0;
+	margin-top: 500px;
+}
+.packaging #pack{
+	font-size: 35px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:black;
+	text-align: center;
+	float: left;
+	display: block;
+	
+}
+.packaging #pack h2{
+	margin-top: 200px;
+}
+.packaging #li3{
+	position: relative;
+	float:left;
+	margin-top: 250px;
+	right: 391px;
+	
+}
+
+.packaging #caja{
+	height: 0px;
+	
+}
+.packaging #caja{
+	position: relative;
+	left: -11px;
+	
+}
+.packaging #caja img{
+	margin-left: -343px;
+}
+
+.packaging #piano img{
+	margin-left: 132px;
+}
+
+.fotografia #nerds{
+	height: 0px;
+	
+}
+.fotografia #nerds{
+	position: relative;
+	left: -20px;
+	top: -4px;
+}
+.fotografia #foto{
+	margin-left: 420px;
+	margin-top: -4px;
+}
+.fotografia #fo{
+	background-color: #535274;
+	width: 425px;
+	height: 505px;
+	margin: 0;
+	
+}
+.fotografia #fo{
+	font-size: 35px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	text-align: center;
+	float: right;
+	display: block;
+	margin-top: -509px;
+}
+.fotografia #fo h2{
+	margin-top: 200px;
+}
+.fotografia #li4{
+	position: relative;
+	float: right;
+	display: block;
+	margin-top: -422px;
+	right: 23px;
+
+}
+.fotografia #li4 img{
+	margin-top: 30px
+}
+footer{
+	margin-top: 40px;
+	background-color:#535274;
+	color: white;
+	height: 250px;
+}
+
+Footer #tel img {
+    margin-top: 32px;
+	margin-left: 60px;
+}
+
+footer h4{
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	margin-top: -187px;
+}
+
+footer #facebook{
+	position: relative;
+	margin-left: 550px;
+	height: 0;
+	
+}
+
+footer #insta{
+	position: relative;
+	display: block;
+	margin-left: 660px;
+	top: -14px;
+	height: 0;
+	
+}
+
+footer #twitter{
+	position: relative;
+	margin-left: 770px;
+	top: -22px;
+	height: 0;
+	margin-top: -6px;
+}
+
+footer h6{
+	position: relative;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	top: 15px;
+	height: 0;
+}
+footer h3{
+	font-size: 18px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding-left: 1151px;
+	position: relative;
+	top: -5px;
+	height: 0;
+	 
+}
