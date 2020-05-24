@@ -90,6 +90,7 @@ body{
 }
 .nosotros{
 	position: relative;
+	top:-44px;
 }
 .nosotros #titulo{
 	display: inline-block;

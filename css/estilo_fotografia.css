@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+}
+#principal{
+	display: none;
+}
+.cabeza{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 130px;
+	z-index: 62;
+}
+.cabeza img {
+	display: block;
+	margin: 0px;
+}
+.cabeza figcaption{
+	position: absolute;
+	bottom: 60px;
+	color: white;
+	opacity: 0.6;
+	width: 35%;
+	background-color: black;
+	height: 20%;
+}
+
+.grid #info{
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	margin-left: 40px;
+	margin-top: -14px;
+}
+
+.grid #info h2{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+}
+.grid #info h2 span{
+	font-size: 60px;
+}
+.grid #info p{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+}
+.grid #info h5{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	margin-left: 80px;
+	color: white;
+	background-color: #535274;
+	width: 232px;
+	height: 44px;
+	padding: 8px;
+}
+.grid #info img{
+	margin-left: 152px;
+	margin-top: -40px;
+}
+
+.grid .animacion{
+	width: 46%;
+	display: inline-block;
+}
+.cabeza figcaption h2{
+	font-size: 50px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding: 2px;
+	margin-left: 50px;
+}
+/*menú*/
+.menu{
+	background-color: white;
+	opacity: 0.9;
+	margin: 0 auto;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 100;
+}
+
+.encabezado #logo{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 62;
+	margin-block-end: 0;
+	margin-block-stard: 0;
+	bottom: 0;
+}
+.encabezado #logo img{
+	height: 95%
+}
+
+.encabezado #navegacion ul{
+	list-style: none;
+	text-align: right;
+	padding-bottom: 25px;
+	padding-left: 150px;
+	padding-right: 40px;
+	margin: 0
+}
+
+.encabezado #navegacion ul li{
+	display: inline-block;
+	width: 150px;
+	padding-top: 40px;
+	position: relative;
+}
+
+.encabezado #navegacion ul li a{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	display: block;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+
+.encabezado #navegacion ul li a:hover{
+	color: #bce784;
+	text-shadow: 2px 2px 2px 2px;
+}
+
+/*conceptual*/
+#conceptual h5{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 60px;
+	color: #535274;
+	text-align: center;
+}
+
+.grid-2 div{
+	width: 32.5%;
+	position: relative;
+	margin: 0;
+	display: inline-block;
+}
+
+.grid-2 img{
+	width: 101.6%;
+	max-height: 490px;
+}
+
+/*creativa*/
+#creativas h5{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 60px;
+	color: #535274;
+	text-align: center;
+	margin-top: 50px;
+}
+.grid-3 div{
+	width: 32.5%;
+	position: relative;
+	margin: 0;
+	margin-top: -50px;
+	display: inline-block;
+}
+
+.grid-3 img{
+	width: 105%;
+	max-height: 512px;
+}
+
+/*producto*/
+#producto h5{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 60px;
+	color: #535274;
+	text-align: center;
+	margin-top: 50px;
+}
+.grid-4 div{
+	width: 32.5%;
+	position: relative;
+	margin: 0;
+	margin-top: -50px;
+	display: inline-block;
+}
+
+.grid-4 img{
+	width: 105%;
+	max-height: 523px;
+}
+
+/*retrato*/
+#retrato h5{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 60px;
+	color: #535274;
+	text-align: center;
+	margin-top: 50px;
+}
+.grid-5 div{
+	width: 32.5%;
+	position: relative;
+	margin: 0;
+	margin-top: -50px;
+	display: inline-block;
+}
+
+.grid-5 img{
+	width: 105%;
+	max-height: 523px;
+}
+/*footer*/
+
+footer{
+	margin-top: 40px;
+	background-color:#535274;
+	color: white;
+	height: 250px;
+}
+
+Footer #tel img {
+    margin-top: 32px;
+	margin-left: 60px;
+}
+
+footer h4{
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	margin-top: -187px;
+}
+
+
+footer .sociales{
+	text-align: center;
+}
+
+footer .sociales figure{
+	display: inline-block;
+}
+
+footer h6{
+	position: relative;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	top: 15px;
+	height: 0;
+	margin-block-start: 0;
+    margin-block-end: 0;
+}
+footer h3{
+	font-size: 18px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+footer #derechos{
+	position: absolute;
+	right: 40px;
+}
